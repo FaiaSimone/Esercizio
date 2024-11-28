@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body, .wrapper{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    /* background-image:  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    animation: rotate 6s infinite alternate linear;
+
+}
+
+.card{
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    margin: 0 20px;
+    padding: 70px 30px 44px;
+    border-radius: 1.25rem;
+    background: #1F1B24;
+    text-align: center;
+    box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 0.8);
+}
+
+.card > h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 12px;
+    color: #fff;
+}
+
+.form{
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 16px
+}
+
+.form > input, .form > button{
+    width: 100%;
+    height: 50px;
+}
+
+.form > input{
+    border: 2px solid #ebebeb;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    transition: all 0.375s;
+}
+
+.form > input:hover{
+    border: 2px solid #10449A;
+}
+
+.form > button{
+    cursor: pointer;
+    width: 100%;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    background: #216ce7;
+    color: #f9f9f9;
+    border: 0;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+}
+
+.form > button:hover{
+    background: #10449A;
+}
+
+@media (width >=  500px){
+    body{
+        padding: 0;
+    }
+
+    .card{
+        margin: 0;
+        width: 400px;
+    }
+}
