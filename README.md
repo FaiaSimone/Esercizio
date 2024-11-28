@@ -1,5 +1,5 @@
 # Esercizio
-[https://github.com/FaiaSimone/Esercizio](https://faiasimone.github.io/Esercizio/)
+[https://faiasimone.github.io/Esercizio](https://faiasimone.github.io/Esercizio/)
 
 Ti allego degli screenshot per mostrarti cosa ho utilizzato, oltre ovviamente a VSCode. Ho lavorato su Windows e ho dovuto infatti familiarizzare con MongoDBCompass, di solito lavorando su Ubuntu, utilizzo la CLI. Ho utilizzato NodeJS, Express, Cors, Body-parser, Mongoose e li ho installati tramite npm. L'applicazione visualmente è molto semplice, realizzata in HTML CSS e JS, è un form template che uso per fare test e come punto di partenza per user form più complessi. Volevo utilizzare React e Typescript come ci eravamo detti ma poi ho optato per qualcosa che conoscevo bene, dato che ci stavo mettendo troppo tempo. Tutto quello che fa è prendere i dati messi nei due campi di input e li aggiunge al DB con uno spazio tra loro, avvio il "server" usando NodeJS da powershell. Avrei voluto utilizzare MongoDB Atlas che offre una soluzione free per non avere il db in locale ma volevo consegnarti il link del repo prima che potessi. Hosto la pagina web in Github pages per potertelo far vedere.
 
